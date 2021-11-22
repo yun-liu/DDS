@@ -1,0 +1,17 @@
+net: "edge_train_sbd_DDS-R.prototxt"
+# lr for fine-tuning should be lower than when starting from scratch
+base_lr: 5e-7
+lr_policy: "poly"
+power: 0.9
+#gamma: 0.1
+#stepsize: 10000
+iter_size: 10
+display: 10
+average_loss: 20
+max_iter: 25000
+momentum: 0.9
+weight_decay: 0.0005
+snapshot: 25000
+snapshot_prefix: "snapshots/edge_cls_sbd_reweighted-loss_orig-data"
+# uncomment the following to default to CPU mode solving
+# solver_mode: CPU
