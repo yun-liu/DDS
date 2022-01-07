@@ -5,9 +5,12 @@ This repository contains the code for our IJCV paper: "Semantic Edge Detection w
 
 ### Citations
 
-    @article{liu2021semantic,
+    @article{liu2022semantic,
       title={Semantic edge detection with diverse deep supervision},
       author={Liu, Yun and Cheng, Ming-Ming and Fan, Deng-Ping and Zhang, Le and Bian, JiaWang and Tao, Dacheng},
       journal={International Journal of Computer Vision},
-      year={2021}
+      volume={130},
+      pages={179--198},
+      year={2022},
+      publisher={Springer}
     }
